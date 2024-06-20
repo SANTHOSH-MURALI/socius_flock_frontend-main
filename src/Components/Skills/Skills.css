@@ -1,0 +1,51 @@
+table {
+  background: #012B39;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+}
+th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
+
+tbody tr {
+  transition: background 0.25s ease;
+}
+
+tbody tr:hover {
+  background: #014055;
+}
+
+.warehouse-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.warehouse-search-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+input{
+  margin-top: 1rem;
+}
+
+.profile-data-container{
+  display: flex;
+  flex-direction: row;
+}

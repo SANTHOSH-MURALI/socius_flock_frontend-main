@@ -1,0 +1,24 @@
+.product-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.product-search-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+input{
+  margin-top: 1rem;
+}
+
+.profile-data-container{
+  display: flex;
+  flex-direction: row;
+}
+

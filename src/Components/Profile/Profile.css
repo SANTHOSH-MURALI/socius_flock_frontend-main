@@ -1,0 +1,21 @@
+
+.profile-main{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+h3 {
+  text-align: center;
+  color: #7c0075;
+  border-bottom: 3px solid #7c0075;
+  margin-bottom: 4px;
+  width: fit-content;
+}
+
+.profile-data-container div{
+  padding: 3px;
+}
